@@ -4,6 +4,6 @@ poweshell را اجرا کنید دستور زیر را وارد کنید :
 
 C:""address""\Desktop\psexec -i -d -s C:\Windows\regedit.exe
 
-نکته :آدرس را بطور صحبح وارد کنید
+نکته :آدرس را بطور صحیح وارد کنید
 
 HKEY_LOCAL_MACHINE>SYSTEM>CurrentControlSet>Control>Terminal Server>RCM
