@@ -1,0 +1,22 @@
+client :
+Win + R:
+gpedit.msc
+
+Computer Configuration > Administrative Templates > Network > Lanman Workstation > enabled
+
+gpupdate /force
+
+
+server :
+Services
+این‌ها Running باشند:
+Function Discovery Provider Host
+Function Discovery Resource Publication
+Print Spooler
+
+
+server: 
+search registry editor > hkey_local_machine > system > correntControlSet > control > print 
+right click > new > DWORD 32 bit > Name= "RpcAuthnLevelPrivacyEnabled" > value data have to zero
+> print spooler service restart
+
