@@ -20,3 +20,12 @@ search registry editor > hkey_local_machine > system > correntControlSet > contr
 right click > new > DWORD 32 bit > Name= "RpcAuthnLevelPrivacyEnabled" > value data have to zero
 > print spooler service restart
 
+
+
+server :
+control pannel > credetial manager > delete all credential
+
+open cmd with run as adiministrator:
+C:\Windows\System32>net use * /delete /y
+There are no entries in the list.
+C:\Windows\System32>net use
